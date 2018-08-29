@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".drawing_2d_shapes.Drawing2dShapes" />
-        <activity android:name=".color.ColorsForShapesActivity"></activity>
+        <activity android:name=".color.ColorsForShapesActivity" />
+        <activity android:name=".rotation.RotationActivity" />
     </application>
 
 </manifest>
