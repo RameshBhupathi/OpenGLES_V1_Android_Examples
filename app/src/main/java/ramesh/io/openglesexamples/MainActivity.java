@@ -11,6 +11,7 @@ import ramesh.io.openglesexamples.color.ColorsForShapesActivity;
 import ramesh.io.openglesexamples.drawing_2d_shapes.Drawing2dShapes;
 import ramesh.io.openglesexamples.rotation.RotationActivity;
 import ramesh.io.openglesexamples.shapes_3d.Shapes3dActivity;
+import ramesh.io.openglesexamples.texture_cube.TextureCubeActivity;
 
 public class MainActivity extends ListActivity {
 
@@ -44,6 +45,9 @@ public class MainActivity extends ListActivity {
                 break;
             case 3:
                 intent = new Intent(this, Shapes3dActivity.class);
+                break;
+            case 4:
+                intent = new Intent(this, TextureCubeActivity.class);
                 break;
             default:
                 break;

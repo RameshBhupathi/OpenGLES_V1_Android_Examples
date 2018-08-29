@@ -19,7 +19,11 @@
         <activity android:name=".drawing_2d_shapes.Drawing2dShapes" />
         <activity android:name=".color.ColorsForShapesActivity" />
         <activity android:name=".rotation.RotationActivity" />
-        <activity android:name=".shapes_3d.Shapes3dActivity"></activity>
+        <activity android:name=".shapes_3d.Shapes3dActivity" />
+        <activity
+            android:name=".texture_cube.TextureCubeActivity"
+            android:label="@string/title_activity_texture_cube"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

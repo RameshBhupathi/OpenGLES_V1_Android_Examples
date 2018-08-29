@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">OpengleesAndroidExamples</string>
+    <string name="title_activity_texture_cube">TextureCubeActivity</string>
 </resources>
