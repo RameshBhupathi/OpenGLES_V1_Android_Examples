@@ -16,6 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".drawing_2d_shapes.Drawing2dShapes" />
+        <activity android:name=".color.ColorsForShapesActivity"></activity>
     </application>
 
 </manifest>
