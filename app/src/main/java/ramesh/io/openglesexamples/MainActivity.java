@@ -10,6 +10,7 @@ import android.widget.ListView;
 import ramesh.io.openglesexamples.color.ColorsForShapesActivity;
 import ramesh.io.openglesexamples.drawing_2d_shapes.Drawing2dShapes;
 import ramesh.io.openglesexamples.rotation.RotationActivity;
+import ramesh.io.openglesexamples.shapes_3d.Shapes3dActivity;
 
 public class MainActivity extends ListActivity {
 
@@ -41,7 +42,9 @@ public class MainActivity extends ListActivity {
             case 2:
                 intent = new Intent(this, RotationActivity.class);
                 break;
-
+            case 3:
+                intent = new Intent(this, Shapes3dActivity.class);
+                break;
             default:
                 break;
         }
